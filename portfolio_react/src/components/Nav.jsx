@@ -8,7 +8,6 @@ export default function Nav() {
     <span className=" text-red-500 font-logo ml-2 text-4xl">Al-amin</span>
       <ul className=" hidden md:flex">
       <li className="px-4 font-medium cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="HOME" smooth duration={500}>HOME</Link></li>
-        <li className="px-4 font-medium cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="ABOUT" smooth duration={500}>ABOUT</Link></li>
         <li className="px-4 font-medium cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500}>EDUCATION</Link></li>
         <li className="px-4 font-medium cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="SKILLS" smooth duration={500}>SKILLS</Link></li>
         <li className="px-4 font-medium cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="PROJECTS" smooth duration={500}>PROJECTS</Link></li>
@@ -19,12 +18,11 @@ export default function Nav() {
       </div>
       {nav && (
       <ul className="text-4xl py-6 flex flex-col absolute top-0 left-0 w-full h-screen justify-center items-center bg-[#262A33]">
-      <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="HOME" smooth duration={500}>HOME</Link></li>
-        <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="ABOUT" smooth duration={500}>ABOUT</Link></li>
-        <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500}>EDUCATION</Link></li>
-        <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="SKILLS" smooth duration={500}>SKILLS</Link></li>
-        <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="PROJECTS" smooth duration={500}>PROJECTS</Link></li>
-        <li className=" text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="CONTACT" smooth duration={500}>CONTACT</Link></li>
+      <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="HOME" smooth duration={500} onClick={()=>setNav(!nav)} >HOME</Link></li>
+        <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500} onClick={()=>setNav(!nav)} >EDUCATION</Link></li>
+        <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="SKILLS" smooth duration={500} onClick={()=>setNav(!nav)} >SKILLS</Link></li>
+        <li className="text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="PROJECTS" smooth duration={500} onClick={()=>setNav(!nav)} >PROJECTS</Link></li>
+        <li className=" text-4xl py-6 cursor-pointer text-gray-400 hover:text-red-500 hover:scale-105 duration-200"><Link to="CONTACT" smooth duration={500} onClick={()=>setNav(!nav)} >CONTACT</Link></li>
       </ul>
       )}
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook,FaTwitter,FaLinkedinIn,FaGithub  } from "react-icons/fa";
+import resume from '../assets/Abir Hasan Al-amin.pdf'
 function Home() {
   return (
     <div  name="HOME"  className="text-white bg-[#262A33] w-full h-screen">
@@ -21,13 +22,13 @@ function Home() {
         </p>
         <p className=" text-red-400 text-xl font-bold">FIND ME ON</p>
         <div className="max-w-[600px] flex justify-between items-center">
-          <button className=" cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaFacebook size={30} /></button>
-          <button className="  cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaLinkedinIn size={30}/></button>
-          <button  className=" cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaTwitter size={30} /></button>
-          <button  className=" cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaGithub size={30} /></button>
+          <a href="https://www.facebook.com/AbirHasanAlaminBD/" target="_blank"><button className=" cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaFacebook size={30} /></button></a>
+          <a href="https://www.linkedin.com/in/abirhasanal-amin/" target="_blank"> <button className="  cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaLinkedinIn size={30}/></button></a>
+          <a href="https://twitter.com/Alamin_A_blvr" target="_blank"><button  className=" cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaTwitter size={30} /></button></a>
+          <a href="https://github.com/Abir-Hasan-Al-amin" target="_blank"><button  className=" cursor-pointer p-3 hover:bg-red-500  duration-200 rounded-lg my-7 text-gray-300"><FaGithub size={30} /></button></a>
         </div>
         <div>
-        <button className=" hover:bg-red-900 hover:scale-105 duration-200 cursor-pointer p-3 bg-red-500 rounded-lg shadow-lg">DOWNLOAD CV</button>
+        <a href={resume} download="Abir_Hasan_Alamins_Resume.pdf"><button className=" hover:bg-red-900 hover:scale-105 duration-200 cursor-pointer p-3 bg-red-500 rounded-lg shadow-lg">DOWNLOAD CV</button></a>
         </div>
       </div>
     </div>

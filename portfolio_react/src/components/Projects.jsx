@@ -43,7 +43,7 @@ function Projects() {
         <div className="grid grid-cols-1 gap-9  md:grid-cols-2 justify-center items-center">
         {
           projectInfo.map((project,idx)=>(
-            <div key={idx} className=" flex flex-col justify-center items-center shadow-md rounded-md shadow-[#0f0f0f] hover:scale-110 duration-200">
+            <div key={idx} className=" flex flex-col justify-center items-center shadow-md rounded-md shadow-[#0f0f0f] hover:scale-105 duration-200">
             <img
               className="my-2"
               src={project.img}
