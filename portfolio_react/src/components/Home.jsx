@@ -8,10 +8,10 @@ function Home() {
         <p className="text-2xl">
           Hello, <span className=" text-red-500">I'm</span>
         </p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-gray-300">
+        <h1 className="text-3xl md:text-7xl font-bold text-gray-300">
           Abir Hasan Al-amin
         </h1>
-        <h2 className="text-3xl sm:text-6xl font-bold text-gray-300">
+        <h2 className="text-3xl md:text-6xl font-bold text-gray-300">
           Software Engineer
         </h2>
         <p className="py-4 max-w-[700px] text-slate-400">

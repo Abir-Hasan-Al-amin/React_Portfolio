@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div name="SKILLS" className="bg-[#262A33]  text-gray-300 w-full md:h-screen">
+    <div name="SKILLS" className="bg-[#262A33]  text-gray-300 w-full pt-20 pb-10">
       <div className="max-w-[1100px] mx-auto p-4 flex flex-col justify-center  w-full h-full">
         <div>
           <p className=" text-4xl py-2 font-bold border-red-500 inline border-b-4">
