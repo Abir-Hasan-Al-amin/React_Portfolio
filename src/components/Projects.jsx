@@ -11,6 +11,12 @@ function Projects() {
       title: "ChatApp with FireBase -React.js",
       img: chat,
     },
+        {
+      git: "https://github.com/Abir-Hasan-Al-amin/Todo-List-App",
+      live: "https://abir-todo-list-app.netlify.app/",
+      title: "Todo List App using Local Storage",
+      img: task,
+    },
     {
       git: "https://github.com/Abir-Hasan-Al-amin/ToDo_App_FireBase",
       live: "https://abirtodoapp.netlify.app/",
@@ -22,12 +28,6 @@ function Projects() {
       live: "https://weatherapp-abir.netlify.app/",
       title: "WeatherApp - React.js",
       img: weather,
-    },
-    {
-      git: "https://github.com/Abir-Hasan-Al-amin/Todo-List-App",
-      live: "https://abir-todo-list-app.netlify.app/",
-      title: "Todo List App using Local Storage",
-      img: task,
     },
   ];
   return (
