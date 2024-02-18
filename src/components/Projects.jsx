@@ -25,12 +25,6 @@ function Projects() {
       img: weather,
     },
     {
-      git: "https://github.com/Abir-Hasan-Al-amin/Password-Generator-And-Manager",
-      live: "https://passwordmanagerandgenerator.netlify.app/",
-      title: "Password Generator And Manager using Local Storage",
-      img: pass,
-    },
-    {
       git: "https://github.com/Abir-Hasan-Al-amin/Todo-List-App",
       live: "https://abir-todo-list-app.netlify.app/",
       title: "Todo List App using Local Storage",
