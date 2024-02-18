@@ -1,8 +1,9 @@
 import React from 'react'
 import chat from '../assets/chat.png'
-import  weather from '../assets/2.png'
+import  weather from '../assets/weather.png'
 import  todo from '../assets/todo.png'
 import  pass from '../assets/pass.png'
+import task from '../assets/task.png'
 function Projects() {
   const projectInfo = [
     {
@@ -28,6 +29,12 @@ function Projects() {
       live: "https://passwordmanagerandgenerator.netlify.app/",
       title: "Password Generator And Manager using Local Storage",
       img: pass,
+    },
+    {
+      git: "https://github.com/Abir-Hasan-Al-amin/Todo-List-App",
+      live: "https://abir-todo-list-app.netlify.app/",
+      title: "Todo List App using Local Storage",
+      img: task,
     },
   ];
   return (
