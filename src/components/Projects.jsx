@@ -2,7 +2,6 @@ import React from 'react'
 import chat from '../assets/chat.png'
 import  weather from '../assets/weather.png'
 import  todo from '../assets/todo.png'
-import  pass from '../assets/pass.png'
 import task from '../assets/task.png'
 function Projects() {
   const projectInfo = [
