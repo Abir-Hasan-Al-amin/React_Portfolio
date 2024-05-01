@@ -58,7 +58,7 @@ export default function Nav() {
   return (
     <div className="flex justify-center">
     <div className={`${nav ? 'w-[100%]' : 'w-[95%]'} ${nav ? 'lg:w-[100%]' : 'lg:w-[70%]'}  pl-10 rounded-3xl  flex justify-between items-center h-16 fixed ${nav?'':'mt-10'} z-50 ${navC && !nav ? 'border border-solid border-slate-600  border-opacity-25  backdrop-blur-20  bg-[#0F0F0F] bg-opacity-90  shadow-lg' : ' bg-[#0E1011]'}  `}>
-    <span className={`${nav?"hidden":""} text-[#DEDEDE] font-logo ml-2 text-3xl`}>Al-amin</span>
+    <span className={`${nav?"hidden":""} text-red-500 font-logo ml-2 text-3xl`}>Al-amin</span>
       <ul className=" hidden md:flex">
       <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b] hover:scale-105 duration-200"><Link to="HOME" smooth duration={500}>HOME</Link></li>
         <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500}>EDUCATION</Link></li>
