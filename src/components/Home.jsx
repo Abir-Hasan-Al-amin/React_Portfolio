@@ -9,7 +9,7 @@ function Home() {
       x:0,
     },
     animate:{
-      x:"-50%",
+      x:"-60%",
       transition:{
         repeat:Infinity,
         repeatType:"mirror",
@@ -51,7 +51,7 @@ function Home() {
         <a href={resume} download="Abir_Hasan_Alamins_Resume.pdf"><button className=" hover:bg-red-900 hover:scale-105 duration-200 cursor-pointer p-3 bg-red-500 rounded-lg shadow-lg">DOWNLOAD CV</button></a>
         </div>
       </div>
-        <motion.div variants={textScroll} initial="initial" animate="animate" className="font-bold absolute text-[40vh]  lg:text-[50vh] text-[#ffffff09] whitespace-nowrap bottom-[-100px]  lg:bottom-[-120px] pointer-events-none">
+        <motion.div variants={textScroll} initial="initial" animate="animate" className="font-bold absolute text-[40vh]  lg:text-[50vh] text-[#ffffff09] whitespace-nowrap bottom-[-100px] pointer-events-none">
           Software Engineer
         </motion.div>
     </div>
