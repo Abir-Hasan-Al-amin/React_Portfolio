@@ -31,7 +31,7 @@ function Projects() {
     },
   ];
   return (
-    <div name="PROJECTS" className="bg-[#262A33]  text-gray-300 w-full  pt-20 pb-10">
+    <div name="PROJECTS" className="bg-[#0E1011]  text-gray-300 w-full  pt-20 pb-10">
     <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
       <div>
         <p className=" text-4xl py-2 font-bold border-red-500 inline border-b-4">

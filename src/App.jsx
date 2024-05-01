@@ -7,7 +7,7 @@ import Education from "./components/Education";
 
 function App() {
   return (
-    <div className="bg-[#262A33]">
+    <div className="bg-[#0E1011]">
       <Nav />
       <Home />
       <Education />
