@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {FaBars,FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import { AnimatePresence, motion } from "framer-motion"
@@ -61,7 +61,7 @@ export default function Nav() {
     <span className={`${nav?"hidden":""} text-red-500 font-logo ml-2 text-3xl`}>Al-amin</span>
       <ul className=" hidden md:flex">
       <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b] hover:scale-105 duration-200"><Link to="HOME" smooth duration={500}>HOME</Link></li>
-        <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500}>EDUCATION</Link></li>
+        {/* <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500}>EDUCATION</Link></li> */}
         <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="SKILLS" smooth duration={500}>SKILLS</Link></li>
         <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="PROJECTS" smooth duration={500}>PROJECTS</Link></li>
         <li className="px-4 font-medium cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="CONTACT" smooth duration={500}>CONTACT</Link></li>
@@ -73,7 +73,7 @@ export default function Nav() {
       {nav && (
       <motion.div variants={menuBar} initial="initial" animate="animate" exit="exit" className="text-3xl py-6 flex flex-col absolute top-0 left-0 w-[100%] h-screen justify-center items-center origin-top bg-[#0E1011]">
         <div  className="text-3xl py-6 cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="HOME" smooth duration={500} onClick={()=>setNav(!nav)} >HOME</Link></div>
-        <div   className="text-3xl py-6 cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b] 0 hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500} onClick={()=>setNav(!nav)} >EDUCATION</Link></div>
+        {/* <div   className="text-3xl py-6 cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b] 0 hover:scale-105 duration-200"><Link to="EDUCATION" smooth duration={500} onClick={()=>setNav(!nav)} >EDUCATION</Link></div> */}
         <div   className="text-3xl py-6 cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="SKILLS" smooth duration={500} onClick={()=>setNav(!nav)} >SKILLS</Link></div>
         <div   className="text-3xl py-6 cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="PROJECTS" smooth duration={500} onClick={()=>setNav(!nav)} >PROJECTS</Link></div>
         <div   className="text-3xl py-6 cursor-pointer text-[#DEDEDE] hover:text-[#8b8b8b]  hover:scale-105 duration-200"><Link to="CONTACT" smooth duration={500} onClick={()=>setNav(!nav)} >CONTACT</Link></div>

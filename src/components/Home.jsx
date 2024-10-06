@@ -1,6 +1,5 @@
-import React from "react";
 import { FaFacebook,FaTwitter,FaLinkedinIn,FaGithub  } from "react-icons/fa";
-import resume from '../assets/Abir Hasan Al-amin.pdf'
+import resume from '../assets/Abir Hasan Alamin.pdf'
 import { motion } from "framer-motion";
 import FramerMegnet from "./FramerMegnet";
 function Home() {

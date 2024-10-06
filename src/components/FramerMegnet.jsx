@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { motion } from "framer-motion";
 function FramerMegnet({children}) {
     const ref=useRef(null);

@@ -39,7 +39,6 @@ function Education() {
               Machine Learning Approaches for Intrusion Detection Systems: A
               Comparative Analysis
             </p>
-            {/* <p className="p-4">Currently Working...</p> */}
             <p className="p-4  text-red-500">Supervised By</p>
             <p className="p-4"> Dr. S M Aminul Haque</p>
             <p className="p-4">

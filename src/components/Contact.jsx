@@ -1,5 +1,3 @@
-import React from "react";
-
 function Contact() {
   return (
     <div name="CONTACT" className="bg-[#0E1011]  text-gray-300 w-full pt-20">
